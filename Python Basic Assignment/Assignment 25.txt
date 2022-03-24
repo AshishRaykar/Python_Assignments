@@ -1,0 +1,15 @@
+1) . What is the difference between enclosing a list comprehension in square brackets and parentheses?
+----> The square brackets is used in list and parantheses in tuples
+
+2) What is the relationship between generators and iterators?
+-----> Iterators are used to iterate while genrator will return a sequence of data in an iterable format where we need to iterate over the sequence to use the data
+
+
+3) What are the signs that a function is a generator function?
+----> yeild statment defines function is generator
+
+4) What is the purpose of a yield statement?
+----> In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.
+
+5) What is the relationship between map calls and list comprehensions? Make a comparison and contrast between the two.
+---->The map function takes an expression and an iterable output will be an iterable object where the expression will work on each element of the given iterable. & the List Comprehension is used for creating a list where a simple formula is used
